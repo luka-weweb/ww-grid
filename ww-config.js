@@ -17,6 +17,7 @@ export default {
         max: 10, // default 100,
         step: 1, // default 1
       },
+      responsive: true,
     },
     rowGap: {
       label: {
@@ -29,6 +30,7 @@ export default {
         max: 10000, // default 100,
         step: 1, // default 1
       },
+      responsive: true,
     },
     columnGap: {
       label: {
@@ -41,6 +43,7 @@ export default {
         max: 10000, // default 100,
         step: 1, // default 1
       },
+      responsive: true,
     },
     activeToggleLayout: {
       hidden: true,
