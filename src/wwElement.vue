@@ -16,13 +16,12 @@ export default {
   },
   computed: {
     template() {
+      const style = {};
+
       let result = "";
       for (let i = 0; i < this.content.columns; i++) {
         result += "1fr "
       }
-      // return result // 5
-
-      const style = {};
 
       style['grid-template-columns'] = `${result}`;
       style['row-gap'] = `${this.content.rowGap}px`;
